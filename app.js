@@ -9,6 +9,8 @@ const express = require('express'),
 
       // Routes
       index = require('./routes/index'),
+      posts = require('./routes/posts'),
+      submit = require('./routes/submit'),
 
    app = express()
 
@@ -27,6 +29,8 @@ const express = require('express'),
    .set('view cache', true)
 
    .use('/', index)
+   .use('/posts', posts)
+   .use('/posts/submit', submit)
 
    .get('/500', () => {
     throw new Error('This is a 500 Error');
