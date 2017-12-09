@@ -9,7 +9,7 @@ Blog that I created as part of a job interview take home project.
 ## Features
 - Users can upload posts with a Title, Description, Email, and Text Body
 - Posts can be viewed by most recently added
-- From the command line, you my also view the 5 most recent posts in the command line by typing the command `list`
+- From the command line, you may also view the 5 most recent posts by typing the command `list`
 
 ## Technologies
 Node.js, Express, HTML5, CSS3
