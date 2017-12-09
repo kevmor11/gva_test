@@ -1,5 +1,4 @@
 const express = require('express'),
-      moment = require('moment'),
       pool = require('../public/js/db'),
       router = express.Router()
 
