@@ -31,6 +31,110 @@ a.nav:hover {
   text-decoration: none;
 }
 
+.upload-form {
+  width: 50em;
+  margin: 0 auto;
+  margin-top: 8em;
+  background: whitesmoke;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 20px 30px;
+  box-shadow: 0px 2px 1.5px rgba(138, 136, 136, 0.1),
+              0px 4px 10px rgba(138, 136, 136, 0.1),
+              0px 10px 15px rgba(138, 136, 136, 0.1);
+  -webkit-box-shadow: 0px 2px 1.5px rgba(138, 136, 136, 0.1),
+              0px 4px 10px rgba(138, 136, 136, 0.1),
+              0px 10px 15px rgba(138, 136, 136, 0.1);
+  -moz-box-shadow: 0px 2px 1.5px rgba(138, 136, 136, 0.1),
+              0px 4px 10px rgba(138, 136, 136, 0.1),
+              0px 10px 15px rgba(138, 136, 136, 0.1);
+}
+
+div.body {
+  margin-top: 7em
+}
+
+div.posts {
+  width: 50em;
+  margin: 0 auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background: whitesmoke;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  box-shadow: 0px 2px 1.5px rgba(0,0,0,0.1),
+              0px 4px 10px rgba(0,0,0,0.1),
+              0px 10px 15px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 0px 2px 1.5px rgba(0,0,0,0.1),
+              0px 4px 10px rgba(0,0,0,0.1),
+              0px 10px 15px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 2px 1.5px rgba(0,0,0,0.1),
+              0px 4px 10px rgba(0,0,0,0.1),
+              0px 10px 15px rgba(0,0,0,0.1);
+}
+
+button.submit {
+  color: #fff;
+  background-color: #006fe6;
+  border-color: #007bff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05), 0 4px 10px rgba(0, 123, 255, 0.25);
+  border-radius: 50px;
+  height: 3em;
+  width: 8em;
+  font-size: 1em;
+  margin: 0 auto;
+  display: block;
+}
+
+button.submit:hover {
+  background-color: #2c85e4;
+  border-color: #007bff;
+}
+
+h3.upload-title {
+  text-align: center;
+}
+
+h3.form-title {
+  text-align: center;
+  color: white;
+}
+
+h5.post-email {
+  margin: 20px 30px;
+  text-align: center;
+}
+
+h6.post-date {
+  text-align: center;
+}
+
+h1.home-title {
+  color: #006fe6;
+  margin-top: 8em;
+  text-align: center;
+}
+
+h4.description {
+  text-align: center;
+  margin: 20px 30px;
+}
+
+p.body {
+  margin: 20px 30px;
+}
+
+div.post-header {
+  width: 50em;
+  margin: 0 auto;
+  /* margin-top: 8em; */
+  background: #5ca3e9;
+  border: 1px solid lightgrey;
+  border-radius: 5px 5px 0 0;
+  /* padding: 20px 30px; */
+  width: 99.9%;
+}
+
 @font-face {
   font-family: 'AUdimat-Regular';
   src:url('AUdimat-Regular.ttf.woff') format('woff'),

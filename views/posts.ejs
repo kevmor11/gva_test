@@ -1,5 +1,17 @@
 <% include ../partials/_head %>
 <body class="home">
 <% include ../partials/_header %>
-<h2>Hello world</h2>
+<div class="body">
+  <% posts.forEach((post, i) => { %>
+    <div class="posts">
+      <div class="post-header">
+        <h3 class="form-title"><%= post.title %></h3>
+      </div>
+      <h4 class="description"><%= post.description %></h4>
+      <p class="body"><%= post.body %></p>
+      <h5 class="post-email">By <%= post.email %></h5>
+      <h6 class="post-date">Posted on <%= (post.date_created).toString().substring(0, 21) %></h6>
+    </div>
+  <% }) %>
+</div>
 <% include ../partials/_footer %>

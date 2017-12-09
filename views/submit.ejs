@@ -1,5 +1,29 @@
 <% include ../partials/_head %>
 <body class="home">
 <% include ../partials/_header %>
-<h2>Hello world</h2>
+<div class="upload-form">
+  <form action="/posts/submit" method="post">
+    <h3 class="upload-title">Create a new blog post</h3>
+
+    <div class="form-group">
+      <label for="title">Title: *</label>
+      <input class="form-control" type="text" name="title" id="title" required />
+    </div>
+    <div class="form-group">
+      <label for="description">Description:</label>
+      <input class="form-control" type="text" name="description" pattern=".{3,1000}" />
+    </div>
+    <div class="form-group">
+      <label for="email">Email: *</label>
+      <input class="form-control" type="email" id="input-email" name="email" required></input>
+    </div>
+    <div class="form-group">
+      <label for="body">Body: *</label>
+      <textarea class="form-control" type="text" id="input-body" name="body" required></textarea>
+    </div>
+    <small>* = required field</small>
+    <br/>
+    <button class="btn btn-primary submit" type="submit" value="Submit">Create</button>
+  </form>
+</div>
 <% include ../partials/_footer %>
