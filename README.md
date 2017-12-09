@@ -1,14 +1,13 @@
-# App
+# GVA Blog
 
-Introductory Description.
+Blog that I created as part of a job interview take home project.
 
 ## Features
--
--
--
+- Users can upload posts with a Title, Description, Email, and Text Body
+- Posts can be viewed by most recently added
 
 ## Technologies
-Node.js, Express, HTML, CSS, jQuery
+Node.js, Express, HTML5, CSS3
 
 ## Setup
 Clone this repo to your desktop and from repository root directory run `npm install` to install all the dependencies.
@@ -22,3 +21,7 @@ Once the dependencies are installed, you can run  `npm start` from the root dire
 You will then be able to view the web app at:
 
 localhost:3000
+
+OR
+
+https://gva-blog.herokuapp.com
