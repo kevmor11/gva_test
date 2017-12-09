@@ -3,7 +3,7 @@ const express = require('express'),
       router = express.Router()
 
 .get("/", (req, res) => {
-  res.render('index');
+  res.redirect('/posts');
 });
 
 module.exports = router;
