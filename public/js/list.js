@@ -15,5 +15,5 @@ pool.getConnection((error, connection) => {
       console.log('Body:', post.body, '\n\n');
     })
   });
-connection.release();
+  connection.release();
 });
