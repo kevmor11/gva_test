@@ -1,6 +1,7 @@
 # GVA Blog
 
-![](./screenshots/list.png)
+<kbd><img src="./screenshots/list.png" /></kbd>
+
 
 
 Blog that I created as part of a job interview take home project.
