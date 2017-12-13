@@ -44,8 +44,8 @@ const express = require('express'),
   });
 
 setInterval(() => {
-    http.get("http://gva-blog.herokuapp.com");
-}, 2700000);
+    http.get("https://gva-blog.herokuapp.com/posts");
+}, 900000);
 
 function NotFound(msg){
   this.name = 'Not Found';
