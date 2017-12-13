@@ -6,6 +6,7 @@ const express = require('express'),
       cookieParser = require('cookie-parser'),
       bodyParser = require('body-parser'),
       compression = require('compression'),
+      http = require('http'),
 
       // Routes
       index = require('./routes/index'),
@@ -41,6 +42,10 @@ const express = require('express'),
     res.render('error');
     throw new NotFound;
   });
+
+setInterval(() => {
+    http.get("http://gva-blog.herokuapp.com");
+}, 2700000);
 
 function NotFound(msg){
   this.name = 'Not Found';
